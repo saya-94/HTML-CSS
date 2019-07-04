@@ -1,0 +1,158 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/*navi-list-item:after {
+ clear: both;
+ content: "";
+ display: block;
+}*/
+
+.clearfix::after {
+ content: "";
+ display: block;
+ clear: both;
+}
+
+header {
+ width: 90%;
+ padding: 20px 0;
+ margin: 0 auto;
+ text-align: center;
+}
+
+/* headerタグ内のheadlineクラスにのみ反映される */
+header .headline {
+ font-size: 32px;
+}
+
+.navi-list {
+ text-align: center;
+ padding: 15px 0;
+ border-top: solid 2px lightgray;
+ border-bottom: solid 2px lightgray;
+}
+
+.navi-list-item {
+ display: inline-block;
+ margin: 0 20px;
+}
+
+.main {
+ width: 800px;
+ height: 600px;
+ margin: 50px auto;
+
+}
+
+#color1 {
+ width: 200px;
+ height:200px;
+ background-color: #e6ffe9;
+ float: left; /*要素を左揃えで並べる */
+}
+
+#color2 {
+ width: 200px;
+ height:200px;
+ background-color: #cbffd3;
+ float: left; /*要素を左揃えで並べる */
+}
+
+#color3 {
+ width: 200px;
+ height:200px;
+ background-color: #aeffbd;
+ float: left; /*要素を左揃えで並べる */
+}
+
+#color4 {
+ width: 200px;
+ height:200px;
+ background-color: #93ffab;
+ float: left; /*要素を左揃えで並べる */
+}
+
+#color5 {
+ width: 200px;
+ height:200px;
+ background-color: #f3ffd8;
+ float: left; /*要素を左揃えで並べる */
+}
+
+#color6 {
+ width: 200px;
+ height:200px;
+ background-color: #edffbe;
+ float: left; /*要素を左揃えで並べる */
+}
+
+#color7 {
+ width: 200px;
+ height:200px;
+ background-color: #e9ffa5;
+ float: left; /*要素を左揃えで並べる */
+}
+
+#color8 {
+ width: 200px;
+ height:200px;
+ background-color: #e4ff8d;
+ float: left; /*要素を左揃えで並べる */
+}
+
+#color9 {
+ width: 200px;
+ height:200px;
+ background-color: #d9e5ff;
+ float: left; /*要素を左揃えで並べる */
+}
+
+#color10 {
+ width: 200px;
+ height:200px;
+ background-color: #bad3ff;
+ float: left; /*要素を左揃えで並べる */
+}
+
+#color11 {
+ width: 200px;
+ height:200px;
+ background-color: #a4c6ff;
+ float: left; /*要素を左揃えで並べる */
+}
+
+#color12 {
+ width: 200px;
+ height:200px;
+ background-color: #8eb8ff;
+ float: left; /*要素を左揃えで並べる */
+}
+
+footer {
+ width: 100%;
+ height: 120px;
+ text-align: center;
+ background-color: #848282;
+}
+
+.footer-text {
+ color: #fff;
+ line-height: 120px;
+}
+
+
+/*footer {
+ background-color: gray;
+ height: 120px;
+ width: 100%
+ padding: 50px;
+ text-align: center;
+}
+
+.footer-text {
+ color: white;
+}*/
