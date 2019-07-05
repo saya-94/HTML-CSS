@@ -1,0 +1,78 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.clearfix::after {
+ content: "";
+ display: block;
+ clear: both;
+}
+
+main {
+ margin: 50px auto;
+ width: 960px
+}
+
+.main {
+ width: 300px;
+ border: 1px solid #f7f7f7;
+ float: left;
+ padding: 10px;
+ position: relative;
+ margin-right: 30px;
+}
+
+.main:last-child {
+ margin-right: 0;
+}
+
+.image1 {
+ height: 150px;
+ background-image: url(img/flow01.png);
+ background-size: cover;
+ background-position: bottom;
+}
+
+.image2 {
+ height: 150px;
+ background-image: url(img/flow02.png);
+ background-size: cover;
+ background-position: bottom;}
+
+.image3 {
+ height: 150px;
+ background-image: url(img/flow03.png);
+ background-size: cover;
+ background-position: bottom;
+}
+
+.step {
+ background-color: orange;
+ color: #fff;
+ position: absolute;
+ padding: 5px;
+ top: 0;
+ left: 0;
+}
+
+.title{
+ margin: 15px 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
